@@ -1,0 +1,9 @@
+body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; font-family: 'Courier New', Courier, monospace; }
+#ui-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; color: white; }
+.hud-top { display: flex; justify-content: space-between; padding: 20px; }
+#health-container { width: 250px; height: 20px; background: #333; border: 2px solid #fff; }
+#health-bar { width: 100%; height: 100%; background: #0f0; transition: width 0.3s; }
+#minimap { width: 150px; height: 150px; background: rgba(0,0,0,0.6); border: 2px solid #fff; }
+#ammo-display { position: absolute; bottom: 20px; right: 20px; font-size: 24px; }
+#crosshair { position: absolute; top: 50%; left: 50%; font-size: 30px; transform: translate(-50%, -50%); }
+canvas { display: block; }
